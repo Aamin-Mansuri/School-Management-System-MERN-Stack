@@ -53,7 +53,7 @@ export const Toast = ({ toast, type, message, title, duration = 4000, onClose })
   return (
     <div
       role="alert"
-      className={`fixed bottom-6 right-6 z-[99999] flex items-start gap-3.5 p-4 rounded-2xl shadow-2xl backdrop-blur-md border ${current.border} ${current.bg} text-white max-w-md w-full sm:w-auto min-w-[320px] animate-in fade-in slide-in-from-bottom-5 duration-300`}
+      className={`fixed bottom-6 right-6 z-99999 flex items-start gap-3.5 p-4 rounded-2xl shadow-2xl backdrop-blur-md border ${current.border} ${current.bg} text-white max-w-md w-full sm:w-auto min-w-[320px] animate-in fade-in slide-in-from-bottom-5 duration-300`}
     >
       <div className="mt-0.5">{current.icon}</div>
       <div className="flex-1 text-xs">
